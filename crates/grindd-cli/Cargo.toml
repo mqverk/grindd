@@ -1,0 +1,12 @@
+[package]
+name = "grindd-cli"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+clap.workspace = true
+grindd-core = { path = "../grindd-core" }
+serde_json.workspace = true
